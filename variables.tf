@@ -1,9 +1,12 @@
-variable "access_key" {
-  default = "AKIAVBCEMNVED3W7QJSG"
+variable "aws_access_key" {
+  description = "AWS Access Key ID"
+  type     =string
   }
-variable "secret_key" {
-  default = "POE4o8EwrTnA97IMgcf7ivzwCWKnTDUi0EB1KFRi"
+variable "aws_secret_key" {
+  description = "AWS secretAccess Key ID"
+  type     =string
   }
-variable "region" {
-  default = "ap-south-1"
+variable "aws_region" {
+  description = "AWS Region"
+  type     =string
   }
